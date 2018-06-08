@@ -21,4 +21,12 @@ public class ATest
         int diff = a.minus(4, 3);
         assertEquals( 1, diff );
     }
+
+    @Test
+    public void testSquare()
+    {
+        A a  =  new A();
+        int square = a.square(3);
+        assertEquals( 9, square );
+    }
 }
