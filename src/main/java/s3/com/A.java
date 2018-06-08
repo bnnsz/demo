@@ -4,7 +4,7 @@ public class A
 {
 
     public int sum(Integer a, Integer b) {
-        return a + a;
+        return a + b;
     }
 
     public int minus(int a, int b) {
